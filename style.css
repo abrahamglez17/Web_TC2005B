@@ -1,0 +1,27 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p 
+{
+    background-color: bisque;
+}
+
+p.estilote
+{
+    color: darksalmon;
+}
+
+.estilito
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    background-color: cadetblue;
+}
+
+#parrafito
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: crimson;
+}

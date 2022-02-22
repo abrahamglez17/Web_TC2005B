@@ -8,35 +8,7 @@
     <head>
         <!-- titulo, estilo, describir, css-->
         <title> Beep beep boop boop </title>
-        <script>
-             // aqui adentro va a hacer lógica de javascript
-             // ahora los comentarios son con dos 
-
-             // deckarar variables
-             x = 5;
-             x= "this is possible somehow"
-            console.log("hola mundo menos ")
-             function ejemplo(){
-
-                 console.log("HOLA MUNDO")
-                //alert("hola mundo alerta")
-             }
-
-             function boton2(){
-                 alert("BOTON 2")
-             }
-
-             function boton3(){
-                 alert("BOTON 3")
-
-                 // el documento se encuentra jerarquizado en una estructura que se llama DOM
-
-                 // podemos acceder a un elemento específico por medio del id
-                 document.getElementById("parrafito").innerHTML = "<h1> CAMBIE PARA SIEMPRE. <h1/>";
-             }
-
-
-        </script>
+        <script src="script.js"></script>
 
         <!-- ESTILO EN HTML -->
         <!-- CSS - Cascading Style Sheets -->
@@ -44,38 +16,7 @@
         <!-- eb kygar de embeber también se pueden definir clases o estilo por id en otra región-->
         <!-- clase - se puede definir un tipo de estilo reutilizable-->
 
-
-        <style>
-
-            body {
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            }
-
-            p 
-            {
-                background-color: bisque;
-            }
-
-            p.estilote
-            {
-                color: darksalmon;
-            }
-
-            .estilito
-            {
-                font-family: Arial, Helvetica, sans-serif;
-                color: green;
-                background-color: cadetblue;
-            }
-
-            #parrafito
-            {
-                font-family: Arial, Helvetica, sans-serif;
-                color: white;
-                background-color: crimson;
-            }
-
-        </style>
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body onload="ejemplo()">
         <!-- hr es horizontal ruler -->
@@ -199,7 +140,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac scelerisque erat, a tincidunt sapien. Nulla commodo, enim in tempor fermentum, massa arcu semper neque, lacinia pretium nunc libero nec lorem. Quisque mauris sem, viverra vel gravida quis, vulputate sit amet quam. Vestibulum ullamcorper odio mollis sagittis vehicula. Proin mi ex, fringilla sed congue a, finibus in enim. Sed maximus ultricies tristique. Morbi eleifend luctus orci et auctor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas et pellentesque odio. Sed consequat non nibh a dapibus. In porta sapien nec sagittis mattis. Cras ornare velit nisl, sed ornare elit elementum sed. Praesent scelerisque lorem nec efficitur bibendum. 
         </div>
 
-        <div style="opacity: 0.4; position: relative; left: 100px; width: 500px; height: 500px; background-color: darkseagreen;"> SEXOOOOOOOOOOOOOOOOOOOOO </div>
+        <div style="opacity: 0.4; position: absolute; left: 100px; width: 500px; height: 500px; background-color: darkseagreen;"> SEXOOOOOOOOOOOOOOOOOOOOO </div>
     </body>
     
 </html>
