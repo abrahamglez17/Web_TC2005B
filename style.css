@@ -1,5 +1,13 @@
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  height: 665px;
+  background-image: url("https://e.snmc.io/i/600/s/c72ca18a068e5e3d7b969f005d42d389/7994624");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.titulo{
+    color: yellow;
 }
 
 p 
