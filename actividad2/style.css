@@ -1,0 +1,35 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  height: 665px;
+  background-image: url("https://e.snmc.io/i/600/s/c72ca18a068e5e3d7b969f005d42d389/7994624");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.titulo{
+    color: yellow;
+}
+
+p 
+{
+    background-color: bisque;
+}
+
+p.estilote
+{
+    color: darksalmon;
+}
+
+.estilito
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    background-color: cadetblue;
+}
+
+#parrafito
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: crimson;
+}
