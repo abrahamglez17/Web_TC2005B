@@ -5,6 +5,7 @@ body {
   background-size: 100%;
 }
 
+/* estilo del header a partir de una clase */
 .titulo{
     color: red;
 }
@@ -14,6 +15,7 @@ p
     background-color: bisque;
 }
 
+/* estilo de los miembros del equipo a partir de un id */
 #equipo
 {
     color: darksalmon;
