@@ -4,15 +4,18 @@
         <script src="script.js"></script>
     </head>
 
-    <body>
-        <h1> SEGUNDA P&Aacute;GINA</h1>
+    <!-- referencia al css -->
+    <link rel="stylesheet" href="style.css" />
 
+    <body id="dos">
+        <h1> SEGUNDA P&Aacute;GINA</h1>
         <!-- para crear formularios creamos un form-->
         <!-- metodo es una accion que se especifica en el encabezado http-->
         <form action="a_donde_va.php" method="post">
-            <input type="text" id="textito">
-            <input type="submit">
-            <br/>
+            Texto: <input type="text" id="textito"><br/>
+            Email: <input type="email" id ="lilEmail"><br/>
+            Contraseña: <input type="password" id="lilPassword"><br/>
+            <input type="submit" value="Enviar">
             <button onclick="cambiarDatoDeInput()"> CAMBIA </button>
         </form>
     </body>

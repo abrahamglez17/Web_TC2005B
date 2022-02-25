@@ -26,7 +26,9 @@ function boton3(){
 
 function cambiarDatoDeInput(){
 
-    ejemplito = document.getElementById("textito").value
-    alert("ejemplito")
-    document.getElementById("textito").value = "Hola desde JS"
+    Texto = document.getElementById("textito").value
+    Email = document.getElementById("lilEmail").value
+    Password = document.getElementById("lilPassword").value
+    alert("Tus datos son: \n\nTexto: "+Texto+"\nEmail: "+Email+"\nContraseña: "+Password+"\nTu IP: 192.228.17.57 \n\nSip, te acabo de doxear jsjs")
+    
 }
