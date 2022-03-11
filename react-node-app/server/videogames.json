@@ -1,0 +1,17 @@
+{
+    "Game1" : {
+        "title": "Dark souls 3",
+        "genre": "Action rpg",
+        "id": 1
+    },
+    "Game2" : {
+        "title": "Elden Ring",
+        "genre": "Action rpg",
+        "id": 2
+    },
+    "Game3" : {
+        "title": "Mario",
+        "genre": "Platformer",
+        "id": 3
+    }
+}
