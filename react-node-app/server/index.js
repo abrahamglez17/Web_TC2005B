@@ -1,10 +1,6 @@
 // server/index.js
 const express = require("express");
 const fs = require("fs");
-
-const PORT = process.env.PORT || 3001;
-const app = express();
-
 const newGame = {
     "Game4" : {
         "title": "Doom Eternal",
@@ -12,6 +8,9 @@ const newGame = {
         "id": 4
     }
 }
+const PORT = process.env.PORT || 3001;
+const app = express();
+
 
 
 app.get("/api", (req, res) => {
@@ -28,7 +27,7 @@ app.get("/videogames", (req, res) => {
 
 app.post("/addGame", (req, res) => {
     fs.readFile(__dirname + "/" + "videogames.json", "utf8", (req, res) => {
-        data = JSON.parse(data);
+        data = JSON.parse( data );
         data["Game4"] = newGame["Game4"];
         console.log(data);
         res.end(JSON.stringify(data));
