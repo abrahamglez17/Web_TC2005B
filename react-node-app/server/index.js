@@ -26,11 +26,14 @@ app.get("/videogames", (req, res) => {
 });
 
 app.post("/addGame", (req, res) => {
-    fs.readFile(__dirname + "/" + "videogames.json", "utf8", (req, res) => {
+    fs.readFile(__dirname + "/" + "videogames.json", "utf8", (err, data) => {
         data = JSON.parse( data );
         data["Game4"] = newGame["Game4"];
         console.log(data);
         res.end(JSON.stringify(data));
+        fs.writeFile(__dirname + "/" + "videogames.json", JSON.stringify(data), "utf-8", err=>{
+            if (err) throw err;
+        });
     });
 });
 
