@@ -1,27 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
-import React from "react";
+import React, { useState } from "react";
+import PostGame from './PostGame';
 
-function App() {
-
-  const [data, setData] = React.useState(null); // variable que se cambia con estados
+class App extends React.Component {
   
-  React.useEffect(() => {
-    fetch("/api")
-      .then((res) => res.json())
-      .then((data) => setData(data.message));
-  }, []);
+  render() {
 
-  return (
+    return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          {!data ? "Loading..." : data}
-        </p>
-      </header>
+
+      <h2> React POST con hooks </h2>
+      <div>
+        <PostGame />
+      </div>
     </div>
   );
+    }
+  
 }
 
 export default App;
