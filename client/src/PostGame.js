@@ -11,25 +11,28 @@ function PostGame() {
                 genre: genre
             })
     }
+    
     return (
         <div>
             <form>
-                <label> Name:
+                <label> Nombre:
                     <input type="text"
-                        placeholder="name"
+                        placeholder="Introduzca el nombre del juego"
                         value={name}
                         onChange={(e) => setName(e.target.value)} />
                 </label>
 
-                <label> Genre:
+                <label> G&eacutenero:
                     <input type="text"
-                        placeholder="name"
+                        placeholder="Introduzca el género del juego"
                         value={genre}
                         onChange={(e) => setGenre(e.target.value)} />
                 </label>
             </form>
 
-            <button onClick={postGames}>
+            <button 
+            type="sumbmit"
+            onClick={postGames}>
                 POST new game
             </button>
         </div>
